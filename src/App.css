@@ -1,0 +1,158 @@
+.header {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.header-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.header-li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background: #fff;
+  color: #000;
+}
+
+.sidebar {
+  float: left;
+  text-align: left;
+  background-color: #4273E5;
+  color: aqua;
+  font-family: 'Arial';
+  width: 10%;
+  height: 1000vh;
+  list-style-type: none;
+  padding: 10px;
+  margin: 0px;
+}
+
+.button {
+  padding: 10px
+  ;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.content {
+  float: center;
+  width: 98.7%;
+  padding: 10px;
+  background: #FF9C39;
+  margin: 0%;
+  text-align: center;
+  height: 100%;
+  /* background-image: url("numerical methods.png"); */
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+.main-container {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  width: 100%;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #FFE139;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 40px;
+  background: url('logo.png') 0 0;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
