@@ -1,0 +1,59 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1",
+    "antd": "^4.0.3",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "init": "^0.1.2",
+    "math": "0.0.3",
+    "mathjs": "^6.6.1",
+    "matplotlib": "^1.0.0",
+    "mongoose": "^5.9.5",
+    "nerdamer": "^1.1.2",
+    "nodemon": "^2.0.2",
+    "plotly.js": "^1.52.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-math": "0.0.1",
+    "react-plotly.js": "^2.4.0",
+    "react-router": "^3.2.5",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "recharts": "^2.0.0-beta.2",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
